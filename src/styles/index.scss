@@ -1,0 +1,62 @@
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 80;
+  text-align: center;
+  padding: 2em;
+  background: #eaeaea;
+  * {
+    box-sizing: border-box;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-weight: 200;
+  margin: 0 0 1em;
+  font-size: 1.5em;
+}
+
+h2 {
+  font-weight: 100;
+}
+
+h2,
+p {
+  margin: 2em 0;
+}
+
+.trivia-button {
+  display: inline-block;
+  border: none;
+  background: rgb(48, 25, 182);
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1em;
+  outline: none;
+  font-weight: 100;
+  padding: 0.5em 1em;
+  border-radius: 0.3em;
+}
+
+.index {
+  background: #fff;
+  padding: 2em;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.8);
+}
+
+@media (min-width: 25em) {
+  .index {
+    width: 100%;
+  }
+}
+
+@media (min-width: 40em) {
+  .index {
+    margin: 0 auto;
+    width: 50em;
+  }
+}
